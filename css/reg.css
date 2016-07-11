@@ -1,0 +1,63 @@
+.lcontent {
+    float:left;
+    text-align:right;
+    margin-top: 0.5em;
+    width:27em;
+    font-size:1.5em;
+}
+.rcontent {
+    padding:0.4em;
+    font-size: 1em;
+    width:20em;
+    margin: 0.2em 0.2em;
+    display:inline;
+    border-radius: 0.5em;
+    float:left;
+    text-align:left;
+}
+label {
+    padding-bottom: 0.5em;
+    margin-right: 0.5em;
+    text-align:right;
+    width:94%;
+}
+.clear {
+    clear:both;
+}
+
+#regformdiv {
+    margin:0 8% 0% 8%;
+}
+#regbutton{
+    clear:both;
+    text-align: center;
+    margin-top: 0.5em;
+}
+.regbtn {
+    background-color: #fff;
+    color: #000;
+    padding: 0.3em 0.3em;
+    margin: 0.5em 0;
+    border-radius: 0.5em;
+    cursor: pointer;    
+}
+.regbtn:hover {
+    background-color: #000;
+    color: #fff;
+    box-shadow: 0px 0px 0px 1px  #fff, 0px 0px 0px 2px  #eee;
+}
+#pagetitle {
+    clear: both;
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 0.3em;
+}
+#errorsDiv{
+    text-align: left;
+    font-size: 0.5em;
+}
+.errUL , .errLI, .errLI:hover{
+    display: block;
+    margin: 0.5em 15%;
+    box-shadow: none;
+}

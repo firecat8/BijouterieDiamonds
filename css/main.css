@@ -1,0 +1,103 @@
+body{
+    background-color: #000;
+    color: #fff;
+    font-size: 1vw;
+    font-family: Monotype Corsiva, Times, Sans-Serif;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+p{
+    margin: 0 30%;
+    font-size: 1.5em;
+}
+label{
+    font-size: 1.5em;
+}
+form{
+    margin: 1% 0;
+    padding: 1% 0;
+}
+ul, li{
+    display: inline;
+    font-size: 1.7em;
+}
+ul {
+    clear:both;
+}
+li{
+    margin-right: 5%;
+    margin-left: 6%;
+}
+li:hover {
+    box-shadow: 0 1px 0 0 #fff,0 2px 0 0 #aaa;
+}
+input {
+    border-radius: 7%;
+    font-size: 1.5em;
+    border:none;
+}
+.loginlabel{
+    font-size:1.5em;
+    padding-top: 0.5em;
+}
+.clear {
+    clear:both;
+}
+.main {
+    display: block;
+    clear: both;
+    margin:0 5% ;
+}
+.hello{
+    padding:  1em 0;
+}
+.logininput{
+    display: inline;
+    font-size: 0.6em;
+    border-radius: 0.5em;
+    margin-right: 1.2em;
+}
+#reglink, #basketlink{
+    font-size: 1.5em;
+    margin: 0 1em;
+}
+#reglink:hover, #basketlink:hover{
+    text-decoration: underline;
+}
+#leftcontent, .hello{
+    float:left;
+}
+#rightcontent{
+    padding: 1% 0;
+    float:right;
+}
+#contacts{
+    text-align: center;
+    font-size: 2em;
+}
+#menu{
+    margin:3% 0;
+    width:75%;
+    float: right;
+    clear:right;
+    display: block;
+}
+#mainline3{
+    background: url(../images/diamondswall.jpg);
+    background-origin: content-box;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#logo, #imglogo{
+    float:left;
+}
+#logo{
+    display: inline;
+    width: 25%;
+}
+#imglogo{
+    padding: 1% 1%;
+    width: 70%;
+}

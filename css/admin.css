@@ -1,0 +1,65 @@
+.adminList{
+    margin-right: 1%;
+    margin-left: 2%;
+}
+.nameDiv, .priceDiv{
+    font-size: 1.2em;
+    clear: both;
+    margin: 0.2em 0em 0em 0.2em;
+}
+.nameTextInput, .priceTextInput{
+    background-color: #000;
+    color: #fff;
+    border:solid #000 1px;  
+    display: inline;
+    width: 8em;
+    text-align: center;
+    padding: 0.1em 0;
+    margin: 0.1em 0.1em;
+    border-radius: 0em;
+    font-family: Monotype Corsiva, Times, Sans-Serif;
+    font-size: 1.2em;    
+}
+.nameTextInput:hover, .priceTextInput:hover, .nameTextInput:focus, .priceTextInput:focus{
+    border:solid #fff 1px;  
+}
+.subbtn{
+    background-color: #fff;
+    color: #000;
+    padding: 0.3em 0.3em;
+    margin: 0.5em 0;
+    border-radius: 0.5em;
+    cursor: pointer;    
+}
+.optionbtn{
+    background-color: #fff;
+    color: #000;
+    padding: 0.3em 0.3em;
+    margin: 0 0 0 10em;
+    border-radius: 0.5em;
+    cursor: pointer;    
+}
+.changebtn, .redactionbtn{
+    background-color: #fff;
+    color: #000;
+    display: inline;
+    padding: 0.2em 0.2em;
+    font-size: 1.2em;
+    border-radius: 0.5em;
+    cursor: pointer;
+}
+.subbtn:hover, .changebtn:hover, .optionbtn:hover, .redactionbtn:hover {
+    background-color: #000;
+    color: #fff;
+    box-shadow: 0px 0px 0px 1px  #fff, 0px 0px 0px 2px  #eee;
+}
+.optionbtnDiv{
+    clear: both;
+    margin: 1em;
+}
+#titleOrders {
+    clear: both;
+    margin: 0.2em;
+    font-size: 1.8em;
+    text-align: center;
+}

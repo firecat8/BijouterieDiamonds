@@ -1,0 +1,121 @@
+select{
+    margin-left: 1em;
+    width:11em;
+    font-size: 1em;
+}
+.color  {
+    width: 2.5em;
+    height: 2.5em;
+    border:0.1em #ff9999 solid;
+    border-radius: 50%;
+    margin: 0.8em 0.5em;
+    position: relative;
+    display: inline-block;
+}
+.selected{
+    border:0.2em #fff solid;
+}
+.loption, .option{
+    margin-left: 3%;
+}
+.metal, .category{
+    font-size: 1.2em;
+}
+.color .tooltiptext {
+    visibility: hidden;
+    width: 5em;
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    font-size: 1.2em;
+    border-radius: 1em;
+    padding: 0.5em 0;
+    position: absolute;
+    z-index: 1;
+    top: 0%;
+    left:80%;
+}
+.tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 88%;
+    margin-top: -1em;
+    border-width: 1em;
+    border-style: solid;
+    border-color: transparent #fff transparent transparent;
+}
+.color:hover{
+    border-color: #33ffff;
+}
+.color:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+.resultlabel{
+    margin-left: 2%;
+    font-size: 1.5em;
+    margin-left: 1.8em;
+}
+.options {
+    clear:both;
+}
+input[type=checkbox], input[type=radio]{
+    margin-left: 12%;
+}
+#noresults{
+    font-size: 2em;
+    margin-left:35%;
+}
+#msg{
+    font-size: 0.5em;
+    margin-left:1%;
+}
+#loptions{
+    margin-left: 14%;
+}
+#red {
+    background: #c00;
+}
+#green {
+    background: #0c0;
+}
+#blue {
+    background: #00f;
+}
+#aqua {
+    background: #03c0c6;
+}
+#yellow {
+    background: #ff0;
+}
+#white{
+    background: #fff;
+}
+#black{
+    background: #000;
+}
+#grey{
+    background: #999;
+}
+#pink{
+    background: #ff98bf;
+}
+#lila{
+    background: #762ca7;
+}
+#orange{
+    background: #fb940b;
+}
+#brown{
+    background: #885418;
+}
+#options{
+    float:left;
+    text-align: left;
+    width:25%; 
+}
+#results{
+    float:left;
+    width:75%;
+}

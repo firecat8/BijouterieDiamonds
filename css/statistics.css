@@ -1,0 +1,32 @@
+.title{
+    font-size: 1.8em;
+    text-align: center;
+    margin: 0.8em;
+}
+.condition, .criteria{
+    clear: both;
+}
+.criteria{
+    text-align: left;
+    margin: 1em 1.8em;
+    font-size: 1.7em;
+}
+.productDiv{
+    background-color: #000;
+    box-shadow: 0px 0px 0px 2px  #fff;
+    height: 16em;
+    width: 10em;  
+    margin: 0.4em 1em;
+    display: inline-block;
+    text-align: center;
+    font-size: 1.3em;
+}
+.productImg{
+    border-bottom: solid 1px  #fff;
+    height: 9em;
+    width: 10em;
+}
+.productDiv > div{
+    margin: 1.2em;
+}
+

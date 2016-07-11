@@ -1,0 +1,44 @@
+.product{
+    width: 86em;
+    height: 18em;
+    margin: 1em 2em;
+    position: relative;
+}
+.infoproduct{
+    margin-top:0em;
+    clear: right;
+    float: left;
+    background-color: #f00;
+    width:68em;
+    height: 18em;
+    display: block;
+}
+.imglink{
+    float:left;
+}
+.resultimg{ 
+    width:  18em;
+    height: 18em;
+    float:left;
+}
+.name, .price, .metal{
+    font-size: 1.5em;
+    width: 14em;
+    height: 1em;
+    padding: 2em 0;
+    margin: 0 0;
+    text-align: center;
+    display: block;
+    float: left;
+}
+.orderbtn{
+    margin: 3em 0;
+}
+#order, #infoline{
+    margin:0em 0em;
+    display: block;
+    overflow: auto;
+    clear: both;
+    height: 9em;
+    border: 1px #00f solid;
+}
