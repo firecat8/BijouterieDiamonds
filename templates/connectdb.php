@@ -3,14 +3,14 @@
 if (!isset($_SESSION)) {
     session_start();
 }
-$conn = new mysqli("localhost", "root", "8sZfFTK8WQwhTszC", "diamonds");
+$conn = new mysqli("localhost", "root", "", "diamonds");
 
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
 function orderValue() {
-    $conn = new mysqli("localhost", "root", "8sZfFTK8WQwhTszC", "diamonds");
+    $conn = new mysqli("localhost", "root", "", "diamonds");
     $products = $_SESSION['basket'];
     $count = count($products);
     $total = 0;
@@ -44,7 +44,7 @@ function orderValue() {
 }
 
 function showBasket() {
-    $conn = new mysqli("localhost", "root", "8sZfFTK8WQwhTszC", "diamonds");
+    $conn = new mysqli("localhost", "root", "", "diamonds");
     $products = $_SESSION['basket'];
     $basket = "";
     $count = count($products);
@@ -87,7 +87,7 @@ function showBasket() {
 }
 
 function existUser() {
-    $conn = new mysqli("localhost", "root", "8sZfFTK8WQwhTszC", "diamonds");
+    $conn = new mysqli("localhost", "root", "", "diamonds");
     $name = addslashes($_POST['username']);
     $pass = trim($_POST['pass']);
     $pass = md5($pass);
